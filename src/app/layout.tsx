@@ -16,7 +16,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <div>
+          navabar aega yaha (yaha pe rakhi hui cheej sare routes pe jeagi jo is routes ke level pe hongi ya uske niche ke level pe hongi)
+                
+        </div>
+        
+        {children}
+      </body>
     </html>
   );
 }
